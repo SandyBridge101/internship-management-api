@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-#4)8*cd6eeuehp@n1k9*o^3v^2r0)mt#fg)nfl-yhm^a)$-75b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "gradcell.pythonanywhere.com",
+    "127.0.0.1",        # optional: for local development
+    "localhost",        # optional: for local development
+]
 
 
 # Application definition
